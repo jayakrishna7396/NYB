@@ -118,10 +118,6 @@ let text=function hi(){
 }
 text()
 
-
-
-
-
 //Arrow function es-6 featured
 //no function keyword 
 //shorter and modern way of writing function introduced in es-6 
@@ -138,3 +134,14 @@ let box=function (){
     console.log(box2)
 }
 box()
+
+
+//map
+//the data will be stored in key value pairs and key can be of any datatypes
+var m={name:"jayakrishna",1:"date"}
+console.log(m)    
+var a = new map()
+a.set("name",'jayakrishna')
+a.set(1,"date")
+console.log(a)
+
