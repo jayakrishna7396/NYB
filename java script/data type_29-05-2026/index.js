@@ -145,3 +145,5 @@ a.set("name",'jayakrishna')
 a.set(1,"date")
 console.log(a)
 
+//set(unqic value or repated value)
+

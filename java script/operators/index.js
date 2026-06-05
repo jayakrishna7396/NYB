@@ -80,3 +80,56 @@ console.log("stricly inequality",d!==e)
  console.log(age>18)
  console.log(20>18)
 
+
+//  logical operators
+// and (&&)(if both conditon are true then the result will be true)
+// or (||) (if any one of condition is true then the result will be true  )
+//not  (!) (if condition is true the result will be false  or if condition is false the result will be true)
+
+//and (&&)
+console.log(2<4)&&(8>4)
+//or(||)
+console.log(2<4)||(2>4)
+//not(!)
+console.log(!(2<4))
+
+//ternary(?,:)
+let salary=5000
+salary>=20000 ?
+console.log("apply for credit card"):console.log("not elibile for credit cards")
+
+//string operator (contaimation of two string)
+var first="jaya"
+var last="krishna"
+console.log(first+" "+last)
+// string type
+//template
+console.log (`my name is ` +first +last )
+//also writing ina simple method
+console.log(`my name is ${first} ${last}`)
+
+//bitwise
+// 8421
+// 000111
+//    8421 //position
+// 0->0000
+// 1->0001
+// 2->0010
+// 3->0011
+
+// // logical(&&)(if both conditon are true then the result will be true)
+// 1&2
+// 1->0001
+// 2->0010
+//    0000---0
+console.log(1&2)
+/// 1&2
+// 1->0001
+// 2->0010
+//    0011----3
+console.log(1|2)
+
+
+
+
+
