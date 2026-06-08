@@ -69,4 +69,66 @@ else if(marks>80){
     console.log("B grade")
 }
 
+var k    //undefined
+console.log(k)
+var k=null
+console.log (k)    //if give the value is defined as null null is used for future purpose
 
+// NaN(not a number) mathimatics operation is used for nan
+if(0){                    //false value
+    console.log("zero is true")
+}
+else{
+    console.log("false value")
+}
+var m="0"                // true beacuse we use string
+if(m){
+    console.log("zero is true value")
+}
+else{
+    console.log("false value")
+}
+
+//switch    //multiple condition then use switch 
+// step value  1-10,11-20,21-30,31-40,41-50(if else if else)
+//exact value  1,10,15 excute value then i use switch
+// syntax
+// switch (key) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// }
+// switch(valuetocheck){
+//     case value:
+//         ----------
+//         ----------
+//         ----------
+//         case value:2
+//         -----------
+//         ----------
+//         ----------
+//         case value3:
+//             -----------
+//             -----------
+//             -----------
+//             default:
+
+// }
+
+
+var grade =9
+switch(grade){
+    case 10:
+        console.log("excellent")
+        case 9:
+            console.log("good")
+            break;
+            case 8:
+                console.log("average")
+}
+              
+// ternary operator
+// condition is true:false value
