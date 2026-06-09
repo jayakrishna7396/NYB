@@ -131,4 +131,15 @@ switch(grade){
 }
               
 // ternary operator
+//check the even or odd number
+let num=10
+let result=(num%2===0)?"even":"odd"
+console.log(result)
+
+
 // condition is true:false value
+// 3 condition
+let day =2
+day===1? console.log("day one"):console.log("day two" )
+2//day two
+3//day three
