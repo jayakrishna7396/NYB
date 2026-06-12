@@ -279,42 +279,18 @@ function increment(){
 //higher order function
 
 //this key word
+//console.log(obj){"name"}
+//change of this reference 
+//call apply and blind
+// console.log(this)
 
-console.log(this)
-
-function hello(){
+function hello(a,b){
     console.log(this)
-}
-hello()
 
-// let obj={
-//     name="krishna"
-// }
-// console.log (obj["name"])//static
 
-// normal function
-let obj={
-    name:"krishna",
-    hello(){
-        console.log(this.name)
-    }
-}
-hello()
+    console.log(a,b)
+}    
+hello.call(obj,10,20)     //function calling
 
-//array function
-let ar=()=>{
-    console.log(this)
-}
-ar()
-
-let obj={
-    name:"krishna",
-    hello(){
-        console.log(this)
-    },
-    hello1:()=>{
-        console.log(this)
-    }
-}
-obj.hello()
-obj.hello1()
+//apply
+hello.apply(obj(1,2,3))
